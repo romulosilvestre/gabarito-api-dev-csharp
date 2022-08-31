@@ -1,7 +1,7 @@
 using VoeAirlines.Contexts;
 using VoeAirlines.Entities;
-using CiaAerea.Validators.Manutencao;
-using CiaAerea.ViewModels.Manutencao;
+using VoeAirlines.Validators;
+using VoeAirlines.ViewModels;
 using FluentValidation;
 
 namespace VoeAirlines.Services;

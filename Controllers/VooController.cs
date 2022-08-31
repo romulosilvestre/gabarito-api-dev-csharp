@@ -1,9 +1,9 @@
 using VoeAirlines.Services;
-using VoeAirlines.ViewModels.Cancelamento;
-using VoeAirlines.ViewModels.Voo;
+using VoeAirlines.ViewModels;
+
 using Microsoft.AspNetCore.Mvc;
 
-namespace CiaAerea.Controllers;
+namespace VoeAirlines.Controllers;
 
 
 [Route("api/voos")]

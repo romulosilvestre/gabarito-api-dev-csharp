@@ -1,8 +1,8 @@
 using VoeAirlines.Contexts;
-using VoeAirlines.ViewModels.Piloto;
+using VoeAirlines.ViewModels;
 using FluentValidation;
 
-namespace VoeAirlines.Validators.Piloto;
+namespace VoeAirlines.Validators;
 
 public class AtualizarPilotoValidator: AbstractValidator<AtualizarPilotoViewModel>
 {

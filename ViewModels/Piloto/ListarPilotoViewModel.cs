@@ -1,4 +1,4 @@
-namespace CiaAerea.ViewModels.Piloto;
+namespace CiaAerea.ViewModels;
 
 public class ListarPilotoViewModel
 {

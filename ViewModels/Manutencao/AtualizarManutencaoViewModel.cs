@@ -1,6 +1,6 @@
-using CiaAerea.Entities.Enums;
+using VoeAirlines.Entities.Enums;
 
-namespace CiaAerea.ViewModels.Manutencao;
+namespace VoeAirlines.ViewModels;
 
 public class AtualizarManutencaoViewModel
 {

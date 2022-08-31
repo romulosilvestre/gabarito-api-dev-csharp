@@ -1,4 +1,4 @@
-namespace CiaAerea.Entities;
+namespace VoeAirlines.Entities;
 
 public class Piloto
 {

@@ -1,9 +1,10 @@
 using VoeAirlines.Contexts;
-using VoeAirlines.ViewModels.Cancelamento;
+using VoeAirlines.ViewModels;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace VoeAirlines.Validators.Cancelamento;
+
+namespace VoeAirlines.Validators;
 
 public class CancelarVooValidator : AbstractValidator<CancelarVooViewModel>
 {

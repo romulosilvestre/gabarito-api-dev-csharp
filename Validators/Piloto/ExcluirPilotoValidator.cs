@@ -1,9 +1,9 @@
 using VoeAirlines.Contexts;
-using VoeAirlines.ViewModels.Piloto;
+using VoeAirlines.ViewModels;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace VoeAirlines.Validators.Piloto;
+namespace VoeAirlines.Validators;
 
 public class ExcluirPilotoValidator: AbstractValidator<int>
 {

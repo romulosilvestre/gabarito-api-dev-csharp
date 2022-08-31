@@ -2,7 +2,7 @@ using VoeAirlines.Contexts;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace VoeAirlines.Validators.Aeronave;
+namespace VoeAirlines.Validators;
 
 public class ExcluirAeronaveValidator: AbstractValidator<int>
 {

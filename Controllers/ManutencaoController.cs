@@ -1,8 +1,8 @@
 using VoeAirlines.Services;
-using VoeAirlines.ViewModels.Manutencao;
+using VoeAirlines.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CiaAerea.Controllers;
+namespace VoeAirlines.Controllers;
 
 [Route("api/manutencoes")]
 [ApiController]

@@ -1,9 +1,9 @@
 using VoeAirlines.Contexts;
-using VoeAirlines.ViewModels.Voo;
+using VoeAirlines.ViewModels;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace VoeAirlines.Validators.Voo;
+namespace VoeAirlines.Validators;
 
 public class AtualizarVooValidator: AbstractValidator<AtualizarVooViewModel>
 {

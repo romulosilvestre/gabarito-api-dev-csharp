@@ -1,11 +1,8 @@
-using CiaAerea.Contexts;
+using VoeAirlines.Contexts;
 using CiaAerea.Middlewares;
-using CiaAerea.Services;
-using CiaAerea.Validators.Aeronave;
-using CiaAerea.Validators.Cancelamento;
-using CiaAerea.Validators.Manutencao;
-using CiaAerea.Validators.Piloto;
-using CiaAerea.Validators.Voo;
+using VoeAirlines.Services;
+using VoeAirlines.Validators;
+
 using DinkToPdf;
 using DinkToPdf.Contracts;
 
@@ -17,7 +14,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<CiaAereaContext>();
+builder.Services.AddDbContext<VoeAirlinesContext>();
 builder.Services.AddTransient<AeronaveService>();
 builder.Services.AddTransient<PilotoService>();
 builder.Services.AddTransient<VooService>();

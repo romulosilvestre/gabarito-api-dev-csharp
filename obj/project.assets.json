@@ -6383,11 +6383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Professor\\desktop\\gabarito-web-api\\CiaAerea.csproj",
-      "projectName": "CiaAerea",
-      "projectPath": "c:\\Users\\Professor\\desktop\\gabarito-web-api\\CiaAerea.csproj",
+      "projectUniqueName": "c:\\Users\\Professor\\desktop\\gabarito-api-dev-csharp\\VoeAirlines.csproj",
+      "projectName": "VoeAirlines",
+      "projectPath": "c:\\Users\\Professor\\desktop\\gabarito-api-dev-csharp\\VoeAirlines.csproj",
       "packagesPath": "C:\\Users\\Professor\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Professor\\desktop\\gabarito-web-api\\obj\\",
+      "outputPath": "c:\\Users\\Professor\\desktop\\gabarito-api-dev-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

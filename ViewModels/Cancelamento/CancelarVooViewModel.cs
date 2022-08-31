@@ -1,4 +1,4 @@
-namespace CiaAerea.ViewModels.Cancelamento;
+namespace VoeAirlines.ViewModels;
 
 public class CancelarVooViewModel
 {

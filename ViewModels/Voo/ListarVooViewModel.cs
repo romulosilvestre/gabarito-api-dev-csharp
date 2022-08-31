@@ -1,4 +1,4 @@
-namespace VoeAirlines.ViewModels.Voo;
+namespace VoeAirlines.ViewModels;
 
 public class ListarVooViewModel
 {

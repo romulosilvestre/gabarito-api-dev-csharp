@@ -1,0 +1,7 @@
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.csproj.AssemblyReference.cache
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.AssemblyInfoInputs.cache
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.AssemblyInfo.cs
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.csproj.CoreCompileInputs.cache
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Professor\desktop\gabarito-api-dev-csharp\obj\Debug\net6.0\VoeAirlines.MvcApplicationPartsAssemblyInfo.cache

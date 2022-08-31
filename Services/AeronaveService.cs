@@ -1,6 +1,6 @@
 using VoeAirlines.Contexts;
 using VoeAirlines.Entities;
-using VoeAirlines.Validators.Aeronave;
+using VoeAirlines.Validators;
 using VoeAirlines.ViewModels;
 using FluentValidation;
 

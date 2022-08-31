@@ -1,16 +1,13 @@
 using System.Text;
 using VoeAirlines.Contexts;
 using VoeAirlines.Entities;
-using VoeAirlines.Validators.Cancelamento;
-using VoeAirlines.Validators.Voo;
+using VoeAirlines.Validators;
 using VoeAirlines.ViewModels;
-using VoeAirlines.ViewModels.Cancelamento;
-using VoeAirlines.ViewModels.Piloto;
-using VoeAirlines.ViewModels.Voo;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace VoeAirlines.Services;
 

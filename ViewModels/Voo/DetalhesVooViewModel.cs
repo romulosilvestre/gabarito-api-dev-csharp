@@ -1,6 +1,5 @@
 using VoeAirlines.ViewModels;
-using VoeAirlines.ViewModels.Cancelamento;
-using VoeAirlines.ViewModels.Piloto;
+
 
 namespace VoeAirlines.ViewModels.Voo;
 

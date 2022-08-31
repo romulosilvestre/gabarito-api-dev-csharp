@@ -1,4 +1,4 @@
-namespace CiaAerea.ViewModels.Piloto;
+namespace VoeAirlines.ViewModels;
 
 public class AtualizarPilotoViewModel
 {

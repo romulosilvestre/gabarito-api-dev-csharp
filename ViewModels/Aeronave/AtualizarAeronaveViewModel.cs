@@ -1,4 +1,4 @@
-namespace CiaAerea.ViewModels;
+namespace VoeAirlines.ViewModels;
 
 public class AtualizarAeronaveViewModel
 {

@@ -1,8 +1,8 @@
-using CiaAerea.Services;
-using CiaAerea.ViewModels.Piloto;
+using VoeAirlines.Services;
+using VoeAirlines.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CiaAerea.Controllers;
+namespace VoeAirlines.Controllers;
 
 [Route("api/pilotos")]
 [ApiController]
