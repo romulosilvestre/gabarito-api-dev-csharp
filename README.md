@@ -1,10 +1,10 @@
-# Projeto ASP.NET Core Web API para gerenciamento de companhias aéreas
+# Projeto ASP.NET Core Web API para gerenciamento da VoeAirlines By Embraery
 
 ## Como executar o projeto
 
 **Clonar o repositório**
 ```
-git clone https://github.com/treinaweb/treinaweb-projeto-pratico-api-companhia-aerea-asp-net.git
+git clone https://github.com/romulosilvestre/gabarito-api-dev-csharp.git
 ```
 
 **Restaurar os pacotes**
@@ -30,7 +30,7 @@ A UI do Swagger estará disponível na URL https://localhost:[porta]/swagger (a 
 **Consumir os endpoints**
 Sugestão de ordem para testar a aplicação:
 
-1) Criar, editar e excluir pacientes
-2) Criar, editar e excluir médicos
-3) Criar, editar e excluir monitoramentos do paciente
-4) Criar, editar e excluir consultas
+1) Criar, editar e excluir Aeronaves
+2) Criar, editar e excluir Manutenção
+3) Criar, editar e excluir Piloto
+4) Criar, editar e excluir Voo

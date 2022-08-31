@@ -1,19 +1,19 @@
-using CiaAerea.Contexts;
-using CiaAerea.Entities;
-using CiaAerea.Validators.Piloto;
-using CiaAerea.ViewModels.Piloto;
+using VoeAirlines.Contexts;
+using VoeAirlines.Entities;
+using VoeAirlines.Validators.Piloto;
+using VoeAirlines.ViewModels.Piloto;
 using FluentValidation;
 
-namespace CiaAerea.Services;
+namespace VoeAirlines.Services;
 
 public class PilotoService
 {
-    private readonly CiaAereaContext _context;
+    private readonly VoeAirlinesContext _context;
     private readonly AdicionarPilotoValidator _adicionarPilotoValidator;
     private readonly AtualizarPilotoValidator _atualizarPilotoValidator;
     private readonly ExcluirPilotoValidator _excluirPilotoValidator;
 
-    public PilotoService(CiaAereaContext context, AdicionarPilotoValidator adicionarPilotoValidator, AtualizarPilotoValidator atualizarPilotoValidator, ExcluirPilotoValidator excluirPilotoValidator)
+    public PilotoService(VoeAirlinesContext context, AdicionarPilotoValidator adicionarPilotoValidator, AtualizarPilotoValidator atualizarPilotoValidator, ExcluirPilotoValidator excluirPilotoValidator)
     {
         _context = context;
         _adicionarPilotoValidator = adicionarPilotoValidator;

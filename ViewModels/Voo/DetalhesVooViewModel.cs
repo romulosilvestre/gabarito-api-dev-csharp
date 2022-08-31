@@ -1,7 +1,8 @@
-using CiaAerea.ViewModels.Cancelamento;
-using CiaAerea.ViewModels.Piloto;
+using VoeAirlines.ViewModels;
+using VoeAirlines.ViewModels.Cancelamento;
+using VoeAirlines.ViewModels.Piloto;
 
-namespace CiaAerea.ViewModels.Voo;
+namespace VoeAirlines.ViewModels.Voo;
 
 public class DetalhesVooViewModel
 {

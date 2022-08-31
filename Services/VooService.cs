@@ -1,28 +1,28 @@
 using System.Text;
-using CiaAerea.Contexts;
-using CiaAerea.Entities;
-using CiaAerea.Validators.Cancelamento;
-using CiaAerea.Validators.Voo;
-using CiaAerea.ViewModels;
-using CiaAerea.ViewModels.Cancelamento;
-using CiaAerea.ViewModels.Piloto;
-using CiaAerea.ViewModels.Voo;
+using VoeAirlines.Contexts;
+using VoeAirlines.Entities;
+using VoeAirlines.Validators.Cancelamento;
+using VoeAirlines.Validators.Voo;
+using VoeAirlines.ViewModels;
+using VoeAirlines.ViewModels.Cancelamento;
+using VoeAirlines.ViewModels.Piloto;
+using VoeAirlines.ViewModels.Voo;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace CiaAerea.Services;
+namespace VoeAirlines.Services;
 
 public class VooService
 {
-    private readonly CiaAereaContext _context;
+    private readonly VoeAirlinesContext _context;
     private readonly AdicionarVooValidator _adicionarVooValidator;
     private readonly AtualizarVooValidator _atualizarVooValidator;
     private readonly ExcluirVooValidator _excluirVooValidator;
     private readonly CancelarVooValidator _cancelarVooValidator;
     private readonly IConverter _converter;
-    public VooService(CiaAereaContext context, AdicionarVooValidator adicionarVooValidator, AtualizarVooValidator atualizarVooValidator, ExcluirVooValidator excluirVooValidator, CancelarVooValidator cancelarVooValidator, IConverter converter)
+    public VooService(VoeAirlinesContext context, AdicionarVooValidator adicionarVooValidator, AtualizarVooValidator atualizarVooValidator, ExcluirVooValidator excluirVooValidator, CancelarVooValidator cancelarVooValidator, IConverter converter)
     {
         _context = context;
         _adicionarVooValidator = adicionarVooValidator;

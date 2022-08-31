@@ -1,14 +1,14 @@
-using CiaAerea.Contexts;
+using VoeAirlines.Contexts;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace CiaAerea.Validators.Aeronave;
+namespace VoeAirlines.Validators.Aeronave;
 
 public class ExcluirAeronaveValidator: AbstractValidator<int>
 {
-    private readonly CiaAereaContext _context;
+    private readonly VoeAirlinesContext _context;
 
-    public ExcluirAeronaveValidator(CiaAereaContext context)
+    public ExcluirAeronaveValidator(VoeAirlinesContext context)
     {
         _context = context;
 

@@ -1,13 +1,13 @@
-using CiaAerea.Contexts;
-using CiaAerea.ViewModels.Piloto;
+using VoeAirlines.Contexts;
+using VoeAirlines.ViewModels.Piloto;
 using FluentValidation;
 
-namespace CiaAerea.Validators.Piloto;
+namespace VoeAirlines.Validators.Piloto;
 
 public class AdicionarPilotoValidator: AbstractValidator<AdicionarPilotoViewModel>
 {
-    private readonly CiaAereaContext _context;
-    public AdicionarPilotoValidator(CiaAereaContext context)
+    private readonly VoeAirlinesContext _context;
+    public AdicionarPilotoValidator(VoeAirlinesContext context)
     {
         _context = context;
 

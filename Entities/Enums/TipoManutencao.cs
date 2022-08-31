@@ -1,4 +1,4 @@
-namespace CiaAerea.Entities.Enums;
+namespace VoeAirlines.Entities.Enums;
 
 public enum TipoManutencao
 {

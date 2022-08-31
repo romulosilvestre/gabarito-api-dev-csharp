@@ -1,19 +1,19 @@
-using CiaAerea.Contexts;
-using CiaAerea.Entities;
+using VoeAirlines.Contexts;
+using VoeAirlines.Entities;
 using CiaAerea.Validators.Manutencao;
 using CiaAerea.ViewModels.Manutencao;
 using FluentValidation;
 
-namespace CiaAerea.Services;
+namespace VoeAirlines.Services;
 
 public class ManutencaoService
 {
-    private readonly CiaAereaContext _context;
+    private readonly VoeAirlinesContext _context;
     private readonly AdicionarManutencaoValidator _adicionarManutencaoValidator;
     private readonly AtualizarManutencaoValidator _atualizarManutencaoValidator;
     private readonly ExcluirManutencaoValidator _excluirManutencaoValidator;
 
-    public ManutencaoService(CiaAereaContext context, AdicionarManutencaoValidator adicionarManutencaoValidator, AtualizarManutencaoValidator atualizarManutencaoValidator, ExcluirManutencaoValidator excluirManutencaoValidator)
+    public ManutencaoService(VoeAirlinesContext context, AdicionarManutencaoValidator adicionarManutencaoValidator, AtualizarManutencaoValidator atualizarManutencaoValidator, ExcluirManutencaoValidator excluirManutencaoValidator)
     {
         _context = context;
         _adicionarManutencaoValidator = adicionarManutencaoValidator;

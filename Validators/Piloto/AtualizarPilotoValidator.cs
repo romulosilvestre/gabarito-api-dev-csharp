@@ -1,13 +1,13 @@
-using CiaAerea.Contexts;
-using CiaAerea.ViewModels.Piloto;
+using VoeAirlines.Contexts;
+using VoeAirlines.ViewModels.Piloto;
 using FluentValidation;
 
-namespace CiaAerea.Validators.Piloto;
+namespace VoeAirlines.Validators.Piloto;
 
 public class AtualizarPilotoValidator: AbstractValidator<AtualizarPilotoViewModel>
 {
-    private readonly CiaAereaContext _context;
-    public AtualizarPilotoValidator(CiaAereaContext context)
+    private readonly VoeAirlinesContext _context;
+    public AtualizarPilotoValidator(VoeAirlinesContext context)
     {
         _context = context;
 

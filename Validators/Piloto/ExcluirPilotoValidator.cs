@@ -1,14 +1,14 @@
-using CiaAerea.Contexts;
-using CiaAerea.ViewModels.Piloto;
+using VoeAirlines.Contexts;
+using VoeAirlines.ViewModels.Piloto;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace CiaAerea.Validators.Piloto;
+namespace VoeAirlines.Validators.Piloto;
 
 public class ExcluirPilotoValidator: AbstractValidator<int>
 {
-    private readonly CiaAereaContext _context;
-    public ExcluirPilotoValidator(CiaAereaContext context)
+    private readonly VoeAirlinesContext _context;
+    public ExcluirPilotoValidator(VoeAirlinesContext context)
     {
         _context = context;
 

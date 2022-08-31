@@ -1,6 +1,6 @@
-using CiaAerea.Entities.Enums;
+using VoeAirlines.Entities.Enums;
 
-namespace CiaAerea.Entities;
+namespace VoeAirlines.Entities;
 
 public class Manutencao
 {

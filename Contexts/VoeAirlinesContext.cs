@@ -1,14 +1,14 @@
-using CiaAerea.Entities;
-using CiaAerea.EntityConfigurations;
+using VoeAirlines.Entities;
+using VoeAirlines.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 
-namespace CiaAerea.Contexts;
+namespace VoeAirlines.Contexts;
 
-public class CiaAereaContext: DbContext
+public class VoeAirlinesContext: DbContext
 {
     private readonly IConfiguration _configuration;
 
-    public CiaAereaContext(IConfiguration configuration)
+    public VoeAirlinesContext(IConfiguration configuration)
     {
         _configuration = configuration;
     }

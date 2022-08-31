@@ -1,15 +1,15 @@
-using CiaAerea.Contexts;
-using CiaAerea.ViewModels.Cancelamento;
+using VoeAirlines.Contexts;
+using VoeAirlines.ViewModels.Cancelamento;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
-namespace CiaAerea.Validators.Cancelamento;
+namespace VoeAirlines.Validators.Cancelamento;
 
 public class CancelarVooValidator : AbstractValidator<CancelarVooViewModel>
 {
-    private readonly CiaAereaContext _context;
+    private readonly VoeAirlinesContext _context;
 
-    public CancelarVooValidator(CiaAereaContext context)
+    public CancelarVooValidator(VoeAirlinesContext context)
     {
         _context = context;
 

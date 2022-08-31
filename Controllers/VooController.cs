@@ -1,6 +1,6 @@
-using CiaAerea.Services;
-using CiaAerea.ViewModels.Cancelamento;
-using CiaAerea.ViewModels.Voo;
+using VoeAirlines.Services;
+using VoeAirlines.ViewModels.Cancelamento;
+using VoeAirlines.ViewModels.Voo;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CiaAerea.Controllers;

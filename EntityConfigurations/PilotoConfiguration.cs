@@ -1,8 +1,8 @@
-using CiaAerea.Entities;
+using VoeAirlines.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CiaAerea.EntityConfigurations;
+namespace VoeAirlines.EntityConfigurations;
 
 public class PilotoConfiguration : IEntityTypeConfiguration<Piloto>
 {
