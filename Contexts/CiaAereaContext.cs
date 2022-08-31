@@ -1,4 +1,5 @@
 using CiaAerea.Entities;
+using CiaAerea.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace CiaAerea.Contexts;
