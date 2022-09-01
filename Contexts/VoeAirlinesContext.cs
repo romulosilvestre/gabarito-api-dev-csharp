@@ -21,7 +21,7 @@ public class VoeAirlinesContext: DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(_configuration.GetConnectionString("CiaAerea"));
+        optionsBuilder.UseSqlServer(_configuration.GetConnectionString("VoeAirlines"));
     }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)

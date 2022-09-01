@@ -2,7 +2,7 @@ using System.Net;
 using System.Text.Json;
 using FluentValidation;
 
-namespace CiaAerea.Middlewares;
+namespace VoeAirlines.Middlewares;
 
 public class ValidationExceptionHandlerMiddleware
 {

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CiaAerea.Migrations
 {
-    [DbContext(typeof(CiaAereaContext))]
+    [DbContext(typeof(VoeAirlinesContext))]
     [Migration("20220328012832_EstruturaInicial")]
     partial class EstruturaInicial
     {

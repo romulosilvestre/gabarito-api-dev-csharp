@@ -1,6 +1,6 @@
 using VoeAirlines.Entities.Enums;
 
-namespace VoeAirlines.ViewModels.Manutencao;
+namespace VoeAirlines.ViewModels;
 
 public class ListarManutencaoViewModel
 {

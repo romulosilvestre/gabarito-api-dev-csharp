@@ -1,8 +1,8 @@
 using VoeAirlines.Contexts;
-using VoeAirlines.ViewModels.Manutencao;
+using VoeAirlines.ViewModels;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
-using VoeAirlines.ViewModels;
+
 
 namespace VoeAirlines.Validators;
 

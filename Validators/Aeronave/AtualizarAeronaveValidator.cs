@@ -2,6 +2,7 @@ using VoeAirlines.Contexts;
 using VoeAirlines.ViewModels;
 using FluentValidation;
 
+
 namespace VoeAirlines.Validators;
 
 public class AtualizarAeronaveValidator: AbstractValidator<AtualizarAeronaveViewModel>

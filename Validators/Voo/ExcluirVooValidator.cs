@@ -1,7 +1,7 @@
 using VoeAirlines.Contexts;
 using FluentValidation;
 
-namespace VoeAirlines.Validators.Voo;
+namespace VoeAirlines.Validators;
 
 public class ExcluirVooValidator: AbstractValidator<int>
 {

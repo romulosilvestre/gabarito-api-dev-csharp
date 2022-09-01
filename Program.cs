@@ -1,5 +1,5 @@
 using VoeAirlines.Contexts;
-using CiaAerea.Middlewares;
+using VoeAirlines.Middlewares;
 using VoeAirlines.Services;
 using VoeAirlines.Validators;
 
